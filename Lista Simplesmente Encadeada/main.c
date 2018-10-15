@@ -9,10 +9,27 @@ int main(){
   inserir(&minhaLista, 2, 1);
   imprimeLista(&minhaLista);
 
+  inserir(&minhaLista, 15,1);
+  imprimeLista(&minhaLista);
+
   inserir(&minhaLista, 30,999);
   imprimeLista(&minhaLista);
 
+  //remover(&minhaLista, 30);
+  //imprimeLista(&minhaLista);
+
+  remover(&minhaLista, 15);
+  imprimeLista(&minhaLista);
+
+  remover(&minhaLista, 2);
+  imprimeLista(&minhaLista);
+
+  remover(&minhaLista, 84);
+
+  /*inserir(&minhaLista, 30,999);
+  imprimeLista(&minhaLista);
   remover(&minhaLista, 40);
+
   /*inserir(&minhaLista, 19, 1);
   inserir(&minhaLista, 28, 1);
   inserir(&minhaLista, 30, 999);
